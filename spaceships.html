@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spaceships</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/spaceships.css" />
+</head>
+<body>
+  <div id="messages" class="text-center flex">
+    <div id="message_content"></div>
+  </div>
+  <div class="flex">
+    <div id="stats" class="flex1">
+      <div class="panel panel-default">
+        <div class="panel-heading">Name<br /> <span id="shipName" class="panel-default"></span></div>
+        <div class="panel-heading">Top Speed<br /> <span id="topSpeed" class="panel-default"></span></div>
+      </div>
+    </div>
+    <div id="spaceship" class="flex flex1">
+      <img src="img/spaceship.svg" alt="Spaceship">
+    </div>
+    <div id="launch" class="text-center flex1">
+      <button class="btn btn-default" type=button id="launch_button">Launch!</button>
+    </div>
+  </div>
+
+
+
+  <!-- Scripts go here. -->
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <script type="text/javascript" src="js/spaceships.js"></script>
+</body>
+</html>

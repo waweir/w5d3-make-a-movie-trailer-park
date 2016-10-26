@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+img { width: 100%; }
+body { height: 100vh; font-family: 'Unica One', monospace;
+ }
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex1 {
+    flex: 1;
+}
+.border {
+    border: 2px solid black;
+}
+#messages {
+    height: 10vh;
+    font-size: 2.9vw;
+    color: #5bacf5;
+    font-weight: bold;
+}
+#spaceship {
+    height: 90vh;
+    align-items: flex-end;
+    img {
+        height: 60vh;
+        transition: all 1.5s ease;
+    }
+}
+#stats {
+    padding: 2vw;
+}
+.panel-default {
+    font-size: 2.5vw;
+    .panel-heading {
+        color: #ff7039;
+        font-weight: bold;
+    }
+    span {
+        color: #ffb367;
+        font-style: italic;
+        font-weight: normal;
+    }
+}
+#launch_button {
+    font-size: 2.5vw;
+    font-weight: bold;
+    border: 5px solid #ffb367;
+    color: #ff7039;
+    background-color: whitesmoke;
+    width: 18vw;
+    height: 8vw;
+}
+
+
+
+
+
+//

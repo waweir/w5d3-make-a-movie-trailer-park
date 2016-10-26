@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(#2e2e2e, black);
+}
